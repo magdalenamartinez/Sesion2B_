@@ -29,7 +29,7 @@ public class Empleado {
 		else if (nominaBruta >= 2500) {
 			retencion = 0.18f;
 		}
-		return (nominaBruta * (1 - retencion))
+		return (nominaBruta * (1 - retencion));
 	}
 
 }
